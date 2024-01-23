@@ -1,6 +1,10 @@
-![تصویری از اثبات موفقیت 86 آزمون اخیر](public/logo.png)
+![logo](public/logo.png)
 
-# سیستم اعتبارسنجی و احراز هویت محتوا بر اساس توکن غیرقابل معاوضه(NFT)
+🚧 **در حال توسعه** 🚧
+
+این پروژه در حال حاضر در دوره فعال توسعه قرار دارد. لطفاً توجه داشته باشید که کد، ویژگی‌ها و مستندات ممکن است تغییر کنند.
+
+# کلاینت ماستادون برای ادغام با سیستم اعتبارسنجی و احراز هویت محتوا بر اساس توکن غیرقابل معاوضه(NFT)
 یک کلاینت تحت وب برای Mastodon که با چارچوب در حال توسعه تایید اصالت محتوا با استفاده از NFT در حال ادغام است.
 
 
@@ -25,23 +29,23 @@
 - [Bootstrap](https://getbootstrap.com/): یکی از بهترین کتابخانه‌های انتهای جلو.
 - [OpenZeppelin](https://openzeppelin.com/): برای ارائه کتابخانه‌ها و ابزارهای قابلیت قراردادهای هوشمند ارزشمند.
 
-همچنین از جامعه گسترده بلاکچین و متن‌باز برای حمایت و الهام مداوم آنها سپاسگزاریم.
+همچنین از جامعه گسترده بلاکچین و متن‌باز برای حمایت و کار های الهام بخش آنها سپاسگزاریم.
 
 
-# NFT Based Content Authenticity & Verification System
+🚧 **Under Development** 🚧
+
+This project is currently under active development. Please note that the code, features, and documentation are subject to change.
+
+
+# Mastodon Client for integeration NFT Based Content Authenticity & Verification System
 This is a playground for testing the  [content authenticity verification framework](https://github.com/mohroba/nft_content_verification)
 
-## Features
-Each contract has a dedicated html and js file that forms a simple interface to interact with contracts.
-- IToken Contract -> https://mohroba.github.io/nft_content_verification_playground/itoken.html
-- CToken Contract -> https://mohroba.github.io/nft_content_verification_playground/ctoken.html
-- VToken Contract -> https://mohroba.github.io/nft_content_verification_playground/vtoken.html
 
 ### Prerequisites
 To test these on your own custom chain or a test-net , you need to deploy the Contracts (IToken,CToken,VToken) and replace the address and ABI (if neceesary). For that matter, you might need following softwares :
 - Node.js
-- NPM (Node Package Manager)
-- Hardhat
+- NPM (مدیر بسته Node)
+- Web3 Wallet (Metamask preferred)
 
 Also remember that playground works with any Web3 supported wallet (Metamask preferred).
 
@@ -55,9 +59,10 @@ I would like to express our sincere appreciation to the following individuals, o
 
 Special thanks to the following open-source projects:
 
+- [Phanpy](https://github.com/cheeaun/phanpy): For Mastdon Based minimalistic client with full funtionalities.
 - [OpenZeppelin](https://openzeppelin.com/): For providing valuable smart contract libraries and tools.
 - [Hardhat](https://hardhat.org/): A powerful development environment for Ethereum smart contracts.
 - [Web3.js](https://web3js.org/): Best development library for JavaScript.
-- [Bootstrap](https://getbootstrap.com/): One the Best front-end libraries.
+- [Preact.js](https://preactjs.com/): One the Best React.js based lightweight frameworks.
 
 We are also grateful to the broader blockchain and open-source community for their continuous support and inspiration.
