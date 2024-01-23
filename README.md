@@ -1,34 +1,29 @@
 ![تصویری از اثبات موفقیت 86 آزمون اخیر](public/logo.png)
 
 # سیستم اعتبارسنجی و احراز هویت محتوا بر اساس توکن غیرقابل معاوضه(NFT)
-این یک زمین بازی برای آزمایش [چارچوب اعتبارسنجی اصالت محتوا](https://github.com/mohroba/nft_content_verification) است.
+یک کلاینت تحت وب برای Mastodon که با چارچوب در حال توسعه تایید اصالت محتوا با استفاده از NFT در حال ادغام است.
 
-## ویژگی‌ها
-هر قرارداد یک پرونده html و js اختصاصی دارد که یک رابط ساده را برای ارتباط با قراردادها ایجاد می‌کند.
-- قرارداد توکن هویت -> [https://mohroba.github.io/nft_content_verification_playground/itoken.html](https://mohroba.github.io/nft_content_verification_playground/itoken.html)
-- قرارداد محتوا -> [https://mohroba.github.io/nft_content_verification_playground/ctoken.html](https://mohroba.github.io/nft_content_verification_playground/ctoken.html)
-- قرارداد توکن تایید -> [https://mohroba.github.io/nft_content_verification_playground/vtoken.html](https://mohroba.github.io/nft_content_verification_playground/vtoken.html)
 
 ### پیش‌نیازها
 برای تست اینها در زنجیره سفارشی خود یا یک تست‌نت، شما باید قراردادها (IToken، CToken، VToken) را پیاده‌سازی کنید و آدرس و ABI (اگر لازم باشد) را جایگزین کنید. به این منظور، شما ممکن است نیاز به نرم‌افزارهای زیر داشته باشید:
 - Node.js
 - NPM (مدیر بسته Node)
-- Hardhat
-
-همچنین به یاد داشته باشید که این زمین بازی با هر کیف پولی که از Web3 پشتیبانی می‌کند (اولویت Metamask) کار می‌کند.
+- Web3 Wallet (Metamask preferred)
+همچنین به یاد داشته باشید که این زمین بازی با هر کیف پولی که از Web3 پشتیبانی می‌کند (ترجیحا Metamask) کار می‌کند.
 
 ## قدردانی
-ما می‌خواهیم از افراد، سازمان‌ها و پروژه‌های زیر صمیمانه سپاسگزاری کنیم که به توسعه این پروژه کمک کرده‌اند:
+از افراد، سازمان‌ها و پروژه‌های زیر صمیمانه سپاسگزاری کنیم که به توسعه این پروژه کمک کرده‌اند:
 
 - **دانشگاه بین‌المللی امام خمینی (ره):** گروه مهندسی کامپیوتر.
 - **دکتر حمیدرضا حمیدی:** استاد دانشگاه [@IKIU](https://ikiu.ac.ir/) و راهنمای پروژه.
 
 سپاس ویژه از پروژه‌های متن‌باز زیر:
 
-- [OpenZeppelin](https://openzeppelin.com/): برای ارائه کتابخانه‌ها و ابزارهای قابلیت قراردادهای هوشمند ارزشمند.
+- [Phanpy](https://github.com/cheeaun/phanpy): برای ارائه کتابخانه‌ها و ابزارهای قابلیت قراردادهای هوشمند ارزشمند.
 - [Hardhat](https://hardhat.org/): یک محیط توسعه قدرتمند برای قراردادهای هوشمند اتریوم.
 - [Web3.js](https://web3js.org/): بهترین کتابخانه توسعه برای جاوااسکریپت.
 - [Bootstrap](https://getbootstrap.com/): یکی از بهترین کتابخانه‌های انتهای جلو.
+- [OpenZeppelin](https://openzeppelin.com/): برای ارائه کتابخانه‌ها و ابزارهای قابلیت قراردادهای هوشمند ارزشمند.
 
 همچنین از جامعه گسترده بلاکچین و متن‌باز برای حمایت و الهام مداوم آنها سپاسگزاریم.
 
